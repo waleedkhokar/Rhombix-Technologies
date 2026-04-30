@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Waleed Khokhar — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ======== CURSOR ======== -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- ======== NAV ======== -->
+  <nav id="navbar">
+    <div class="nav-logo">WK<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ======== HERO ======== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span> Available for freelance work
+      </div>
+      <h1 class="hero-name">
+        <span class="line">Waleed</span>
+        <span class="line accent">Khokhar</span>
+      </h1>
+      <p class="hero-title">Full Stack Developer <span class="sep">—</span> MERN · FastAPI · DevOps</p>
+      <p class="hero-sub">
+        Building scalable web apps and digital products from Rawalpindi, Pakistan 🇵🇰
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Hire Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Learning</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Ambition</span></div>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <div class="img-ring"></div>
+    <img src="https://avatars.githubusercontent.com/u/130039979?v=4" alt="Waleed Khokhar"
+        style="width:100%; height:100%; object-fit:cover; border-radius:50%;" />
+    </div>
+    <a href="#about" class="scroll-down">
+      <span>Scroll</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- ======== ABOUT ======== -->
+  <section id="about" class="about reveal">
+    <div class="container">
+      <div class="section-tag">01 / About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Who I <span class="accent">Am</span></h2>
+          <p>
+            I'm <strong>Waleed Khokhar</strong>, a BSCS graduate from Rawalpindi/Rawalakot, Pakistan.
+            I'm on a mission to become a financially independent Full Stack + AI + DevOps engineer.
+          </p>
+          <p>
+            I love turning ideas into real products — from crafting pixel-perfect UIs with React to
+            building robust APIs with Node.js and FastAPI. Every line of code I write brings me
+            closer to my goal.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <strong>BSCS Graduate</strong>
+                <span>Computer Science</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Rawalpindi, Pakistan</strong>
+                <span>Available Remotely</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-briefcase"></i>
+              <div>
+                <strong>Freelancer</strong>
+                <span>Upwork · Fiverr</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://drive.google.com/file/d/1Ur98AZU1M2YMqbimbOy8DfusdZRnEKOa/view" target="_blank" class="btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          </a>
+        </div>
+        <div class="about-right">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+            <div>
+              <h4>Bachelor of Science — Computer Science</h4>
+              <p>Rawalpindi / Rawalakot, Pakistan</p>
+              <span class="badge">BSCS Graduate</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div>
+              <h4>Full Stack Web Development</h4>
+              <p>MERN Stack · React · Node.js · MongoDB</p>
+              <span class="badge">Self-Taught + Courses</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-brands fa-python"></i></div>
+            <div>
+              <h4>Python & FastAPI</h4>
+              <p>Backend APIs · Data Analytics · AI Integration</p>
+              <span class="badge">In Progress</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-brands fa-aws"></i></div>
+            <div>
+              <h4>Cloud & DevOps</h4>
+              <p>AWS · Docker · GitHub CI/CD</p>
+              <span class="badge">Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SKILLS ======== -->
+  <section id="skills" class="skills reveal">
+    <div class="container">
+      <div class="section-tag">02 / Skills</div>
+      <h2 class="section-title">My <span class="accent">Stack</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon frontend"><i class="fa-brands fa-react"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>React</span><span>Next.js</span><span>HTML5</span>
+            <span>CSS3</span><span>Tailwind</span><span>Bootstrap</span>
+            <span>ShadCN</span><span>Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon backend"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Express.js</span><span>FastAPI</span>
+            <span>Python</span><span>JavaScript</span><span>TypeScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon database"><i class="fa-solid fa-database"></i></div>
+          <h3>Database</h3>
+          <div class="skill-tags">
+            <span>MongoDB</span><span>PostgreSQL</span><span>SQL</span>
+            <span>Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon devops"><i class="fa-brands fa-docker"></i></div>
+          <h3>DevOps & Cloud</h3>
+          <div class="skill-tags">
+            <span>Docker</span><span>AWS</span><span>Git</span>
+            <span>GitHub</span><span>GitLab CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon mobile"><i class="fa-solid fa-mobile-screen"></i></div>
+          <h3>Mobile & AI</h3>
+          <div class="skill-tags">
+            <span>React Native</span><span>AI Integration</span>
+            <span>Data Analytics</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon other"><i class="fa-solid fa-toolbox"></i></div>
+          <h3>Other</h3>
+          <div class="skill-tags">
+            <span>Canva</span><span>Filmora</span><span>Freelancing</span>
+            <span>Project Mgmt</span><span>SDLC</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== PROJECTS ======== -->
+  <section id="projects" class="projects reveal">
+    <div class="container">
+      <div class="section-tag">03 / Projects</div>
+      <h2 class="section-title">Featured <span class="accent">Work</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-info">
+            <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <h3>Full Stack Web Application</h3>
+            <p>A complete MERN stack web application with user authentication, RESTful API, and responsive UI.</p>
+            <div class="project-links">
+              <a href="https://github.com/waleedkhokar" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="https://waledkhokar.vercel.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-info">
+            <div class="project-tags"><span>Next.js</span><span>Tailwind</span><span>ShadCN</span></div>
+            <h3>Personal Portfolio Website</h3>
+            <p>Modern developer portfolio with smooth animations, dark theme, and responsive design.</p>
+            <div class="project-links">
+              <a href="https://github.com/waleedkhokar" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="https://waledkhokar.vercel.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-info">
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>To-Do List App</h3>
+            <p>Feature-rich task manager with add, edit, delete, filters, and localStorage persistence.</p>
+            <div class="project-links">
+              <a href="https://github.com/waleedkhokar" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">04</div>
+          <div class="project-info">
+            <div class="project-tags"><span>FastAPI</span><span>Python</span><span>PostgreSQL</span></div>
+            <h3>REST API Backend</h3>
+            <p>Scalable REST API built with FastAPI and PostgreSQL with JWT authentication and Docker deployment.</p>
+            <div class="project-links">
+              <a href="https://github.com/waleedkhokar" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== EXPERIENCE ======== -->
+  <section id="experience" class="experience reveal">
+    <div class="container">
+      <div class="section-tag">04 / Experience</div>
+      <h2 class="section-title">My <span class="accent">Journey</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 — Present</span>
+            <h3>Web Development Intern</h3>
+            <h4>Rhombix Technologies</h4>
+            <p>Building full-stack web projects, personal portfolio, and to-do applications. Applying MERN stack skills in real-world internship tasks.</p>
+            <div class="timeline-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 — Present</span>
+            <h3>Freelance Full Stack Developer</h3>
+            <h4>Self-Employed · Upwork / Fiverr</h4>
+            <p>Developing web applications for clients using MERN stack. Building responsive UIs and RESTful APIs. Managing projects end-to-end.</p>
+            <div class="timeline-tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020 — 2024</span>
+            <h3>BSCS Graduate</h3>
+            <h4>University · Rawalpindi/Rawalakot</h4>
+            <p>Completed Bachelor of Science in Computer Science. Gained strong foundation in algorithms, data structures, web development, and software engineering.</p>
+            <div class="timeline-tags"><span>DSA</span><span>OOP</span><span>DBMS</span><span>Networking</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ACHIEVEMENTS ======== -->
+  <section id="achievements" class="achievements reveal">
+    <div class="container">
+      <div class="section-tag">05 / Achievements</div>
+      <h2 class="section-title">Awards & <span class="accent">Honors</span></h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fa-solid fa-trophy"></i></div>
+          <h3>BSCS Degree</h3>
+          <p>Successfully completed Bachelor of Computer Science degree.</p>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fa-solid fa-medal"></i></div>
+          <h3>Rhombix Internship</h3>
+          <p>Selected for Web Development internship at Rhombix Technologies.</p>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Full Stack Skills</h3>
+          <p>Mastered MERN stack and expanding into FastAPI, Docker & AWS.</p>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fa-solid fa-rocket"></i></div>
+          <h3>Portfolio Live</h3>
+          <p>Personal portfolio deployed on Vercel — waledkhokar.vercel.app</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT ======== -->
+  <section id="contact" class="contact reveal">
+    <div class="container">
+      <div class="section-tag">06 / Contact</div>
+      <h2 class="section-title">Let's <span class="accent">Talk</span></h2>
+      <p class="contact-sub">Have a project in mind or want to hire me? I'd love to hear from you.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="https://wa.me/923191402404" class="contact-item" target="_blank">
+            <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div><strong>WhatsApp</strong><span>+92 319 1402404</span></div>
+          </a>
+          <a href="https://linkedin.com/in/waleedkhokhar" class="contact-item" target="_blank">
+            <div class="c-icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div><strong>LinkedIn</strong><span>linkedin.com/in/waleedkhokhar</span></div>
+          </a>
+          <a href="https://github.com/waleedkhokar" class="contact-item" target="_blank">
+            <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+            <div><strong>GitHub</strong><span>github.com/waleedkhokar</span></div>
+          </a>
+          <a href="https://waledkhokar.vercel.app" class="contact-item" target="_blank">
+            <div class="c-icon"><i class="fa-solid fa-globe"></i></div>
+            <div><strong>Portfolio</strong><span>waledkhokar.vercel.app</span></div>
+          </a>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="form-group">
+            <input type="text" id="fname" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" id="femail" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <textarea id="fmsg" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn-primary full-width" id="sendBtn">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p id="form-feedback"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">WK<span>.</span></span>
+      <p>© 2025 Waleed Khokhar — Built with ❤️ in Pakistan 🇵🇰</p>
+      <div class="footer-socials">
+        <a href="https://github.com/waleedkhokar" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/waleedkhokhar" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/923191402404" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
